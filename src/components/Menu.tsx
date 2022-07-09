@@ -1,10 +1,7 @@
 import { Popover, Transition } from "@headlessui/react";
 import { List } from "phosphor-react";
-import { Classes } from "./Classes";
-import { Sidebar } from "./Sidebar";
 import { useGetLessonsQuery } from "../graphql/generated"
 import { Lesson } from "./Lesson"
-import { Video } from "./Video";
 import { useEffect, useState } from "react";
 
 interface MenuProps {
